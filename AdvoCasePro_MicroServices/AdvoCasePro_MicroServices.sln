@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83EBB117-B0EE-4ECE-9200-AF76DAD3B1EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client_Application", "Client_Application", "{A4405CBD-F937-4E30-ADBA-7F1C06603285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Api", "..\src\Services\Client_Application\WebApplication1\Client.Api.csproj", "{2B0AECE9-92EA-4688-B001-389C4A277B49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0AECE9-92EA-4688-B001-389C4A277B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0AECE9-92EA-4688-B001-389C4A277B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0AECE9-92EA-4688-B001-389C4A277B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0AECE9-92EA-4688-B001-389C4A277B49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4405CBD-F937-4E30-ADBA-7F1C06603285} = {83EBB117-B0EE-4ECE-9200-AF76DAD3B1EE}
+		{2B0AECE9-92EA-4688-B001-389C4A277B49} = {A4405CBD-F937-4E30-ADBA-7F1C06603285}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54F42BBA-21BA-4679-ABBC-C59E89D1FE79}
+	EndGlobalSection
+EndGlobal
