@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83EBB117-B0EE-4ECE-9200-AF76DAD3B1EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client_Application", "Client_Application", "{A4405CBD-F937-4E30-ADBA-7F1C06603285}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4405CBD-F937-4E30-ADBA-7F1C06603285} = {83EBB117-B0EE-4ECE-9200-AF76DAD3B1EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54F42BBA-21BA-4679-ABBC-C59E89D1FE79}
+	EndGlobalSection
+EndGlobal
